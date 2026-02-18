@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-4xl mx-auto p-6">
     <DestinationNavigation />
-    
+
     <div v-if="destination" class="space-y-6">
       <img :src="destination.image" :alt="destination.name" class="w-full h-72 object-cover rounded-xl" />
 
